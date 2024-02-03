@@ -10,18 +10,41 @@ body {
     background-color: #F3E6D8;
 }
 
-h1, h3 {
-    font-family: "Young Serif", serif;
+html {
+    scroll-behavior: smooth;
 }
 
-h3 {
-    color: #854632;
+:root{
+    font-family: Outfit;
+    --Nutmeg-color: #854632;
+    --Dark-Raspberry: #7b284f;
+
+    --White: #ffffff;
+    --Rose-White: #fff5fa;
+    --Eggshell: #f3e6d8;
+    --Light-Grey: #e4ded8;
+    --Wenge-Brown: #5f574e;
+    --Dark-Charcoal: #302d2c;
 }
 
-h5, span, p {
-    font-family: "Outfit", sans-serif;
+body{
+    width: 100%;
+    height: fit-content;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: var(--Eggshell);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 16px;
+    position: relative;
 }
 
-li {
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
     margin-bottom: 10px;
 }
+
