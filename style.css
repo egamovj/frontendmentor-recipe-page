@@ -53,7 +53,9 @@ main{
     min-height: fit-content;
     background-color: var(--White);
     border-radius: 25px;
-    margin-top: 130px;
+    margin: 0 auto;
+    margin-top: 120px;
+    margin-bottom: 120px;
     padding: 42px;
     display: flex;
     flex-direction: column;
@@ -139,6 +141,11 @@ h3{
     gap: 14px;
     padding-left: 22px;
 }
+
+.ingredients-container ul li {
+    list-style: outside;
+    list-style: var(--Dark-Raspberry);
+}
   
 .ingredients-points{
     padding-left: 20px;
@@ -146,3 +153,33 @@ h3{
     color: var(--Wenge-Brown);
 }
   
+.instruction-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    border-bottom: 2px solid #dfdfdf;
+    padding-bottom: 35px;
+}
+  
+.instruction-container ol{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+  
+.instruction-container .h2 {
+    font-weight: 300;
+}
+  
+.instruction-points{
+    padding-left: 20px;
+    font-weight: 400;
+    color: var(--Wenge-Brown);
+    font-size: 17px;
+}
+  
+.instruction-points::marker {
+    color: #7b284f;
+    font-weight: 500;
+}
