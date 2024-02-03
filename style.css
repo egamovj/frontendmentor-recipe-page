@@ -48,3 +48,101 @@ main{
     margin-bottom: 10px;
 }
 
+.container{
+    width: 775px;
+    min-height: fit-content;
+    background-color: var(--White);
+    border-radius: 25px;
+    margin-top: 130px;
+    padding: 42px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 35px;
+}
+  
+.container img{
+    width: 100%;
+    border-radius: 12.5px;
+}
+  
+h1{
+    color: var(--Dark-Charcoal);
+    font-family: Young serif;
+    font-size: 42px;
+}
+  
+.heading-desc{
+    font-weight: 400;
+    font-size: 16.6px;
+    color: var(--Wenge-Brown);
+    margin-top: -16.5px;
+    line-height: 22.5px;
+    font-family: "Outfit", sans-serif;
+}
+  
+.preparation-time-container{
+    width: 100%;
+    height: fit-content;
+    padding: 28px;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--Rose-White);
+    border-radius: 10px;
+    gap: 18px;
+}
+  
+h3{
+    color: var(--Dark-Raspberry);
+    font-size: 21px;
+}
+  
+.preparation-time-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    color: var(--Wenge-Brown);
+    padding-left: 25px;
+}
+  
+.preparation-time-container .bullet-points{
+    color: var(--Wenge-Brown);
+    font-weight: 400;
+}
+  
+.bullet-points p{
+    padding-left: 20px;
+    display: inline;
+    font-weight: 700;
+    margin-right: 5px;
+}
+  
+.ingredients-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    border-bottom: 2px solid #dfdfdf;
+    padding-bottom: 35px;
+}
+  
+.h2{
+    font-family: Young serif;
+    font-size: 29px;
+    color: var(--Nutmeg-color);
+}
+  
+.ingredients-container ul{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    padding-left: 22px;
+}
+  
+.ingredients-points{
+    padding-left: 20px;
+    font-weight: 400;
+    color: var(--Wenge-Brown);
+}
+  
