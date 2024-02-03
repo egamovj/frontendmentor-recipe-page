@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F3E6D8;
+}
+
+h1, h3 {
+    font-family: "Young Serif", serif;
+}
+
+h3 {
+    color: #854632;
+}
+
+h5, span, p {
+    font-family: "Outfit", sans-serif;
+}
+
+li {
+    margin-bottom: 10px;
+}
